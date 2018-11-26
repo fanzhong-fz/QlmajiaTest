@@ -68,3 +68,19 @@ FOUNDATION_EXTERN CGFloat screenWidthScaleBase375();
 }
 
 @end
+
+
+CGFloat screenWidthScaleBase375() {
+    static CGFloat scale = 1;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        UIInterfaceOrientation o = [UIApplication sharedApplication].statusBarOrientation;
+        if (UIInterfaceOrientationIsPortrait(o)) {
+            scale = [UIScreen mainScreen].bounds.size.width / 375.;
+        }else if (UIInterfaceOrientationIsLandscape(o)) {
+            scale = [UIScreen mainScreen].bounds.size.height / 375.;
+        }
+    });
+    
+    return scale;
+}

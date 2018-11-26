@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2165BD52084844400153488 /* NSString+FCaddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = A2165BD42084844400153488 /* NSString+FCaddtion.m */; };
+		A273C9322105D11400A80BDA /* NSLayoutConstraint+AutoScale.m in Sources */ = {isa = PBXBuildFile; fileRef = A273C9312105D11400A80BDA /* NSLayoutConstraint+AutoScale.m */; };
 		A2757B9C206497F800C530AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2757B9B206497F800C530AE /* main.m */; };
-		A2757B9F206497F800C530AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2757B9E206497F800C530AE /* AppDelegate.m */; };
-		A2757BA2206497F800C530AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2757BA1206497F800C530AE /* ViewController.m */; };
+		A2757B9F206497F800C530AE /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2757B9E206497F800C530AE /* CFAppDelegate.m */; };
+		A2757BA2206497F800C530AE /* CFFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2757BA1206497F800C530AE /* CFFViewController.m */; };
 		A2757BA5206497F800C530AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2757BA3206497F800C530AE /* Main.storyboard */; };
 		A2757BA7206497F800C530AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2757BA6206497F800C530AE /* Images.xcassets */; };
 		A2757BAA206497F800C530AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2757BA8206497F800C530AE /* LaunchScreen.xib */; };
 		A2757BB6206497F900C530AE /* QlmajiaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2757BB5206497F900C530AE /* QlmajiaTestTests.m */; };
+		A2AB6D732121491A00BC4352 /* chq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AB6D722121491A00BC4352 /* chq.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2757B96206497F800C530AE /* QlmajiaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QlmajiaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2165BD32084844400153488 /* NSString+FCaddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FCaddtion.h"; sourceTree = "<group>"; };
+		A2165BD42084844400153488 /* NSString+FCaddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FCaddtion.m"; sourceTree = "<group>"; };
+		A273C9302105D11400A80BDA /* NSLayoutConstraint+AutoScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+AutoScale.h"; sourceTree = "<group>"; };
+		A273C9312105D11400A80BDA /* NSLayoutConstraint+AutoScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+AutoScale.m"; sourceTree = "<group>"; };
+		A2757B96206497F800C530AE /* QlmajiaTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QlmajiaTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2757B9A206497F800C530AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2757B9B206497F800C530AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2757B9D206497F800C530AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A2757B9E206497F800C530AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2757BA0206497F800C530AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2757BA1206497F800C530AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2757B9D206497F800C530AE /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		A2757B9E206497F800C530AE /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		A2757BA0206497F800C530AE /* CFFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFFViewController.h; sourceTree = "<group>"; };
+		A2757BA1206497F800C530AE /* CFFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFFViewController.m; sourceTree = "<group>"; };
 		A2757BA4206497F800C530AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2757BA6206497F800C530AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A2757BA9206497F800C530AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A2757BAF206497F900C530AE /* QlmajiaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlmajiaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2757BAF206497F900C530AE /* QlmajiaTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlmajiaTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2757BB4206497F900C530AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2757BB5206497F900C530AE /* QlmajiaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QlmajiaTestTests.m; sourceTree = "<group>"; };
+		A2812E132077A0EE000F8BDD /* CFFCService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFCService.h; sourceTree = "<group>"; };
+		A2AB6D722121491A00BC4352 /* chq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = chq.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2AB6D732121491A00BC4352 /* chq.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +82,8 @@
 		A2757B97206497F800C530AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2757B96206497F800C530AE /* QlmajiaTest.app */,
-				A2757BAF206497F900C530AE /* QlmajiaTestTests.xctest */,
+				A2757B96206497F800C530AE /* QlmajiaTest1.app */,
+				A2757BAF206497F900C530AE /* QlmajiaTest1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +91,16 @@
 		A2757B98206497F800C530AE /* QlmajiaTest */ = {
 			isa = PBXGroup;
 			children = (
-				A2757B9D206497F800C530AE /* AppDelegate.h */,
-				A2757B9E206497F800C530AE /* AppDelegate.m */,
-				A2757BA0206497F800C530AE /* ViewController.h */,
-				A2757BA1206497F800C530AE /* ViewController.m */,
+				A2AB6D722121491A00BC4352 /* chq.a */,
+				A2812E132077A0EE000F8BDD /* CFFCService.h */,
+				A2757B9D206497F800C530AE /* CFAppDelegate.h */,
+				A2757B9E206497F800C530AE /* CFAppDelegate.m */,
+				A2757BA0206497F800C530AE /* CFFViewController.h */,
+				A2757BA1206497F800C530AE /* CFFViewController.m */,
+				A2165BD32084844400153488 /* NSString+FCaddtion.h */,
+				A2165BD42084844400153488 /* NSString+FCaddtion.m */,
+				A273C9302105D11400A80BDA /* NSLayoutConstraint+AutoScale.h */,
+				A273C9312105D11400A80BDA /* NSLayoutConstraint+AutoScale.m */,
 				A2757BA3206497F800C530AE /* Main.storyboard */,
 				A2757BA6206497F800C530AE /* Images.xcassets */,
 				A2757BA8206497F800C530AE /* LaunchScreen.xib */,
@@ -122,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2757B95206497F800C530AE /* QlmajiaTest */ = {
+		A2757B95206497F800C530AE /* QlmajiaTest1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2757BB9206497F900C530AE /* Build configuration list for PBXNativeTarget "QlmajiaTest" */;
+			buildConfigurationList = A2757BB9206497F900C530AE /* Build configuration list for PBXNativeTarget "QlmajiaTest1" */;
 			buildPhases = (
 				A2757B92206497F800C530AE /* Sources */,
 				A2757B93206497F800C530AE /* Frameworks */,
@@ -134,14 +150,14 @@
 			);
 			dependencies = (
 			);
-			name = QlmajiaTest;
+			name = QlmajiaTest1;
 			productName = QlmajiaTest;
-			productReference = A2757B96206497F800C530AE /* QlmajiaTest.app */;
+			productReference = A2757B96206497F800C530AE /* QlmajiaTest1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2757BAE206497F900C530AE /* QlmajiaTestTests */ = {
+		A2757BAE206497F900C530AE /* QlmajiaTest1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2757BBC206497F900C530AE /* Build configuration list for PBXNativeTarget "QlmajiaTestTests" */;
+			buildConfigurationList = A2757BBC206497F900C530AE /* Build configuration list for PBXNativeTarget "QlmajiaTest1Tests" */;
 			buildPhases = (
 				A2757BAB206497F900C530AE /* Sources */,
 				A2757BAC206497F900C530AE /* Frameworks */,
@@ -152,9 +168,9 @@
 			dependencies = (
 				A2757BB1206497F900C530AE /* PBXTargetDependency */,
 			);
-			name = QlmajiaTestTests;
+			name = QlmajiaTest1Tests;
 			productName = QlmajiaTestTests;
-			productReference = A2757BAF206497F900C530AE /* QlmajiaTestTests.xctest */;
+			productReference = A2757BAF206497F900C530AE /* QlmajiaTest1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2757B91206497F800C530AE /* Build configuration list for PBXProject "QlmajiaTest" */;
+			buildConfigurationList = A2757B91206497F800C530AE /* Build configuration list for PBXProject "QlmajiaTest1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +204,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2757B95206497F800C530AE /* QlmajiaTest */,
-				A2757BAE206497F900C530AE /* QlmajiaTestTests */,
+				A2757B95206497F800C530AE /* QlmajiaTest1 */,
+				A2757BAE206497F900C530AE /* QlmajiaTest1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,8 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2757BA2206497F800C530AE /* ViewController.m in Sources */,
-				A2757B9F206497F800C530AE /* AppDelegate.m in Sources */,
+				A2757BA2206497F800C530AE /* CFFViewController.m in Sources */,
+				A2757B9F206497F800C530AE /* CFAppDelegate.m in Sources */,
+				A273C9322105D11400A80BDA /* NSLayoutConstraint+AutoScale.m in Sources */,
+				A2165BD52084844400153488 /* NSString+FCaddtion.m in Sources */,
 				A2757B9C206497F800C530AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +256,7 @@
 /* Begin PBXTargetDependency section */
 		A2757BB1206497F900C530AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2757B95206497F800C530AE /* QlmajiaTest */;
+			target = A2757B95206497F800C530AE /* QlmajiaTest1 */;
 			targetProxy = A2757BB0206497F900C530AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -330,6 +348,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -347,9 +366,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Miles Jordan (D5HPTKXJU6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Miles Jordan (D5HPTKXJU6)";
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = QlmajiaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QlmajiaTest",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.angbai.cxy;
+				PRODUCT_NAME = QlmajiaTest1;
+				PROVISIONING_PROFILE = "ccf96fff-e739-46e4-8fec-21172e385a12";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -357,9 +387,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Miles Jordan (D5HPTKXJU6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Miles Jordan (D5HPTKXJU6)";
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = QlmajiaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QlmajiaTest",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.angbai.cxy;
+				PRODUCT_NAME = QlmajiaTest1;
+				PROVISIONING_PROFILE = "ccf96fff-e739-46e4-8fec-21172e385a12";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -377,7 +418,7 @@
 				);
 				INFOPLIST_FILE = QlmajiaTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QlmajiaTest1Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QlmajiaTest.app/QlmajiaTest";
 			};
 			name = Debug;
@@ -392,7 +433,7 @@
 				);
 				INFOPLIST_FILE = QlmajiaTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QlmajiaTest1Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QlmajiaTest.app/QlmajiaTest";
 			};
 			name = Release;
@@ -400,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2757B91206497F800C530AE /* Build configuration list for PBXProject "QlmajiaTest" */ = {
+		A2757B91206497F800C530AE /* Build configuration list for PBXProject "QlmajiaTest1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2757BB7206497F900C530AE /* Debug */,
@@ -409,21 +450,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2757BB9206497F900C530AE /* Build configuration list for PBXNativeTarget "QlmajiaTest" */ = {
+		A2757BB9206497F900C530AE /* Build configuration list for PBXNativeTarget "QlmajiaTest1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2757BBA206497F900C530AE /* Debug */,
 				A2757BBB206497F900C530AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A2757BBC206497F900C530AE /* Build configuration list for PBXNativeTarget "QlmajiaTestTests" */ = {
+		A2757BBC206497F900C530AE /* Build configuration list for PBXNativeTarget "QlmajiaTest1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2757BBD206497F900C530AE /* Debug */,
 				A2757BBE206497F900C530AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

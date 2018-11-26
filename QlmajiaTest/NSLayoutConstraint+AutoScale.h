@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+FOUNDATION_EXTERN CGFloat screenWidthScaleBase375();
+
 @interface NSLayoutConstraint (AutoScale)
 /**
  是否自动根据375屏幕宽度进行缩放constant的值.

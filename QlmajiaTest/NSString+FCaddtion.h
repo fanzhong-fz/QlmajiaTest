@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (FCaddtion)
+@interface NSString (FCaddtionss)
 
 @end
